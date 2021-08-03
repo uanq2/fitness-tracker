@@ -1,10 +1,9 @@
 // new mongoose schema
 
-// day: { type: date, default: Now}
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-// day: date
+// day: { type: date, default: Now}
 const WorkoutSchema = new Schema({
     day: {
         type: Date,
@@ -14,7 +13,6 @@ const WorkoutSchema = new Schema({
         type: {
             type: String,
             trim: true,
-            required: "Exercise type is required."
         },
         name: {
             type: String,
