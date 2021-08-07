@@ -11,7 +11,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
+mongoose.connect(
+    "mongodb + srv://Admin:Sebit@s0220@cluster0.uscei.mongodb.net/workoutdb?retryWrites=true&w=majority",
+    {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
+        useFindAndModify: true,
+    }
+);
 
 app.use(require("./routes/api.js"));
 app.use(require("./routes/view.js"));
