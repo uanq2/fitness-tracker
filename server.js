@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-    "mongodb + srv://Admin:Sebit@s0220@cluster0.uscei.mongodb.net/workoutdb?retryWrites=true&w=majority",
+    "mongodb+srv://Uriel:BaseDat0s@cluster0.uscei.mongodb.net/workoutdb?retryWrites=true&w=majority",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
