@@ -29,6 +29,10 @@ Deployed application can be found in the link below:
 https://un-fitness-tracker.herokuapp.com/
 Screen shots below
 
+<img width="1230" alt="Screen Shot 2021-08-09 at 11 54 01 PM" src="https://user-images.githubusercontent.com/68913478/128810737-5b5bd492-5ff9-4850-aed1-a8fad09a51fc.png">
+
+<img width="1217" alt="Screen Shot 2021-08-09 at 11 53 47 PM" src="https://user-images.githubusercontent.com/68913478/128810744-d12bcfa8-65d9-4bd7-90a8-6f06c6f84249.png">
+
 ## License
 
 MIT
