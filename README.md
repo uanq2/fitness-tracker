@@ -26,7 +26,8 @@ This is an app that allows users to create and track their daily workouts. Mongo
 ## Usage
 
 Deployed application can be found in the link below:
-https://un-fitness-tracker.herokuapp.com/
+https://fitness-tracker-un.herokuapp.com/
+
 Screen shots below
 
 <img width="1230" alt="Screen Shot 2021-08-09 at 11 54 01 PM" src="https://user-images.githubusercontent.com/68913478/128810737-5b5bd492-5ff9-4850-aed1-a8fad09a51fc.png">
